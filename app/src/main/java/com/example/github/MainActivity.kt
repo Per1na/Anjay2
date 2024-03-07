@@ -25,7 +25,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Bang")
+                    Greeting("Dillon dan MasJat")
                 }
             }
         }
@@ -37,7 +37,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     Surface( color = Color.Magenta ) {
         Text(
             text = "Hello $name! How are you?",
-            modifier = modifier.padding(24.dp),
+            modifier = modifier.padding(16.dp),
         )
     }
 }
@@ -46,6 +46,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     GitHubTheme {
-        Greeting("Bang")
+        Greeting("Dillon dan MasJat")
     }
 }
